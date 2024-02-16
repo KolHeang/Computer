@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Webiste</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="top-menu">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <label class="logo">Heang-Shop</label>
+                    <ul>
+                        <li><a class="active" href="#home"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="#shoes">Shoes</a></li>
+                        <li><a href="#clothes">Clothes</a></li>
+                        <li><a href="#dress">Dress</a></li>
+                        <li><a href="#watch">Watches</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+    </nav>
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title">
+                    <h1>All Product</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/clothes/1.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/shoes/10.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/rob/p10.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/watches/9.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container top-pay">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="top-payment">
+                        <span><i class="fas fa-window-close btn_close"></i></span>
+                        <h3>Card Payment</h3>
+                        <label for="fname">Accepted Cards</label>
+                        <div class="icon">
+                            <i class="fab fa-cc-visa" style="color:navy;"></i>
+                            <i class="fab fa-cc-amex" style="color:blue;"></i>
+                            <i class="fab fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fab fa-cc-discover " style="color:orange;"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                        </div>
+                        <form>
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="Kol Heang" required>
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"required>
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="year" name="month" placeholder="September" required>
+                            <label for="expyear">Exp Yeat</label>
+                            <input type="text" id="expyear" name="expyear" placeholder="2020" required>
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352" required>
+                            <button class="btn-concel">Concel</button>
+                            <button class="btn-confirm">Confirm</button>
+                        </form>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    </section>
+    <section  id="clothes">
+        <div class="container cn">
+            <div class="row">
+                <div class="col-12 title">
+                    <h1>Clothes</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/clothes/1.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/clothes/2.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/clothes/3.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/clothes/4.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/clothes/5.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/clothes/6.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/clothes/7.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/clothes/8.jpg">
+                        </div>
+                        <h1>Clothe</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <section  id="shoes">
+        <div class="container cn">
+            <div class="row">
+                <div class="col-12 title">
+                    <h1>Shoes</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/shoes/1.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/shoes/2.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/shoes/3.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/shoes/4.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/shoes/5.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/shoes/6.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/shoes/7.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/shoes/8.jpg">
+                        </div>
+                        <h1>Shoes</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <section  id="dress">
+        <div class="container cn">
+            <div class="row">
+                <div class="col-12 title">
+                    <h1>Dress</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/rob/p1.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/rob/p2.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/rob/p3.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/rob/p4.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/rob/p5.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/rob/p6.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/rob/p7.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/rob/p8.jpg">
+                        </div>
+                        <h1>Dress</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <section  id="watch">
+        <div class="container cn">
+            <div class="row">
+                <div class="col-12 title">
+                    <h1>Watches</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/watches/1.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/watches/2.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/watches/3.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/watches/4.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/watches/5.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/watches/6.jpg">
+                        </div>
+                        <h1>watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 itme-box item4">
+                    <div class="item ">
+                        <div class="img-box">
+                            <img src="Image/watches/7.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 itme-box">
+                    <div class="item">
+                        <div class="img-box">
+                            <img src="Image/watches/8.jpg">
+                        </div>
+                        <h1>Watches</h1>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="pre-order">Pre-Order</div>
+                        <div class="price">$ 20.00</div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="footer">
+                    <div class="boxs">
+                        <h4>Heang-Shop</h4>
+                            <ul>
+                                <li><a href="#"> <i class="fas fa-home"></i>Home</a></li>
+                                <li><a href="#">shoes</a></li>
+                                <li> <a href="#">clothes</a></li>
+                                <li><a href="#">watches</a></li>
+                                <li><a href="#">dress</a></li>
+                            </ul>
+                    </div>
+                    <div class="boxs">
+                        <h4>contact us</h4>
+                        <ul>
+                            <li><i class="fas fa-home"></i>Adresss: Home 31c, Street 21A, Svay Rolom, Takhmoa, Kandal</li>
+                            <li><i class="fas fa-envelope-square"></i>Gmail: Kolheang777@gmail.com</li> 
+                            <li><i class="fas fa-phone-square-alt"></i> Telephone ,telegram:+855 96 36 10 103</li>
+                        </ul>
+                        <!-- <ul>
+                            <a href="#">telephone: 0963610103</a>
+                            <a href="#">telegram: 0963610103</a>
+                            <a href="#">facebook: lay heang</a>
+                            <a href="#">gmail: kolheang777@gmail.com</a>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </footer>
+    <script src="javascript/main.js"></script>
+</body> 
+</html>
